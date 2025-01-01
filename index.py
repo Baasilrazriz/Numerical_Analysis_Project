@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from sympy import symbols, Eq, solve
 
 # Initialize session state
 if "y_euler" not in st.session_state:
