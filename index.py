@@ -1,15 +1,10 @@
 import streamlit as st
-import re
 import numpy as np
-import cv2
 import pandas as pd
 import matplotlib.pyplot as plt
-from PIL import Image
-import pytesseract
+
 from sympy import symbols, Eq, solve
 
-
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 # Initialize session state
 if "y_euler" not in st.session_state:
     st.session_state.y_euler = None
